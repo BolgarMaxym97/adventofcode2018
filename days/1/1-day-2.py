@@ -1,4 +1,4 @@
-f = open('dist/1.txt', 'r').readlines()
+f = open('./dist/1.txt', 'r').readlines()
 numbers = [int(line.rstrip()) for line in f]
 sumByStep = []
 current = 0

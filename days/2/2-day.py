@@ -1,4 +1,4 @@
-f = open('dist/2.txt', 'r').readlines()
+f = open('./dist/2.txt', 'r').readlines()
 stringsArr = [line.rstrip() for line in f]
 threeCount = 0
 twoCount = 0
